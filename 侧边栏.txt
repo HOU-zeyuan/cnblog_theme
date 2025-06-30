@@ -4,7 +4,7 @@
         github: 'https://github.com/HOU-zeyuan',//浏览器窗口宽度小于1366px时不显示
         favicon: 'https://files.cnblogs.com/files/blogs/847980/icon~2.gif',//网页标签前的图标
         defaultMode: 'dark',//auto dark light
-        showNavAdmin: false,
+        showNavAdmin: true,
         hljsln: true,
         sponsor: {
             enable: false,

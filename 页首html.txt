@@ -1,0 +1,6 @@
+<div class="light-loading">
+  <div class="box">
+    <h2>加载中...…稍安勿躁喵~</h2>
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+</div>

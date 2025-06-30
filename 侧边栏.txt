@@ -1,0 +1,43 @@
+<script type="text/javascript">
+    window.$silence = {
+        avatar: 'https://files.cnblogs.com/files/blogs/847980/icon~1.gif',//头像
+        github: 'https://github.com/HOU-zeyuan',//浏览器窗口宽度小于1366px时不显示
+        favicon: 'https://files.cnblogs.com/files/blogs/847980/icon~2.gif',//网页标签前的图标
+        defaultMode: 'dark',//auto dark light
+        showNavAdmin: false,
+        hljsln: true,
+        sponsor: {
+            enable: false,
+            text:"请我喝杯咖啡提提神呗",
+            paypal: null,
+            wechat: null,
+            alipay: null
+        },
+        signature: {
+            enable: false,
+            author: 'WarEpic',
+            license: ['署名-非商业性使用-相同方式共享 4.0 国际', 'https://creativecommons.org/licenses/by-nc-sa/4.0/'],
+            link: 'https://www.cnblogs.com/WarEpic',
+            remark: "本博文版权归本博主所有,未经授权不得转载"
+        },
+        catalog: {
+            enable: true,
+            index: true,
+            active: true,
+            levels: ['h2', 'h3', 'h4']
+        },
+        navbars: [{
+            title: '标签',
+            url: 'https://www.cnblogs.com/WarEpic/tag'
+        },
+        {
+            title: 'Github',
+            url: 'https://github.com/HOU-zeyuan'
+        },
+        {
+            title: 'Bilibili',
+            url: 'https://space.bilibili.com/670290058'
+        }],
+    };
+</script>
+<script src="https://files.cnblogs.com/files/blogs/847980/slience.min.js"></script>

@@ -5,3 +5,38 @@
         color: false,//"rgba(187,67,128,1)"
     })
 </script>
+
+<div id="bottomProgressBar"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css">
+<div id="aplayer" class="aplayer" data-id="316722029" data-lrctype="0" data-server="netease" data-type="playlist" data-fixed="true" data-listfolded="true"></div>
+<div id="rightMenu"></div>
+<script type="text/javascript">
+/* 鼠标特效 */
+jQuery(document).ready(function($) {
+    $("body").click(function(e) {
+        var a = new Array("莫道桑榆晚，为霞尚满天","血液的作用之一，就是为信仰付出代价","成功包含着毫不气馁地从失败走向失败","慢慢秋日，如提琴长叹，我心暗伤；于北方之地，交杯共饮","孤独是一个人的狂欢，狂欢是一群人的孤独","休对故人思故国，且将新火试新茶，诗酒趁年华","强者自救，圣者渡人","加诸吾身，皆为吾往");
+        // 生成随机索引
+        var randomIndex = Math.floor(Math.random() * a.length);
+        var $i = $("<span></span>").text(a[randomIndex]);
+        var x = e.pageX,
+        y = e.pageY;
+        $i.css({
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"
+        });
+        $("body").append($i);
+        $i.animate({
+            "top": y - 180,
+            "opacity": 0
+        },
+        1500,
+        function() {
+            $i.remove();
+        });
+    });
+});
+</script>

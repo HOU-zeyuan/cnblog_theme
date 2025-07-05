@@ -22,7 +22,8 @@ jQuery(document).ready(function($) {
 "孤独是一个人的狂欢，狂欢是一群人的孤独",
 "休对故人思故国，且将新火试新茶，诗酒趁年华",
 "强者自救，圣者渡人",
-"加诸吾身，皆为吾往"
+"加诸吾身，皆为吾往",
+"人世间没有任何理想值得以这样的沉沦作为代价"
 );
         // 生成随机索引
         var randomIndex = Math.floor(Math.random() * a.length);
@@ -49,3 +50,9 @@ jQuery(document).ready(function($) {
     });
 });
 </script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css">
+<script src="https://files.cnblogs.com/files/wkfvawl/APlayer.min.js"></script>
+<div id="aplayer" class="aplayer"  data-id="13911989702" data-server="netease" data-type="playlist" data-fixed="true" data-listfolded="true" data-order="random" data-theme="#F58EA8" data-autoplay="true"></div>
+<script src="https://unpkg.com/meting@1.2/dist/Meting.min.js"></script>

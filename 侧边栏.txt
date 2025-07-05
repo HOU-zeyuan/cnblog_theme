@@ -23,7 +23,7 @@
         catalog: {
             enable: true,
             index: true,
-            active: true,
+            active: false,
             levels: ['h2', 'h3', 'h4']
         },
         navbars: [{
